@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/@microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const connection = new signalR.HubConnectionBuilder()
+                .withUrl("https://localhost:7155/messageHub")
+                .build();
+
+            connection.start().catch(err => console.error(err.toString()));
+
+            $('#sendMessage').click(()=>{
+                const message = $('#inputMessage').val();
+                connection.invoke("SendMessageAsync", message).catch(err => console.error(err.toString()));
+            });
+            connection.on("ReceiveMessage", message => {
+                $('div').append('<p>' + message + '</p>');
+            });
+        });
+    </script>
+</head>
+<body>
+    <input id="inputMessage" type="text">
+    <button id="sendMessage">SendMessage</button>
+    <div></div>
+</body>
+</html>
