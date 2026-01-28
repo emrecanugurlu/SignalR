@@ -1,0 +1,25 @@
+# ===== Visual Studio =====
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# ===== .NET =====
+*.dll
+*.exe
+*.pdb
+
+# ===== Angular / Node =====
+node_modules/
+dist/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== OS =====
+Thumbs.db
+.DS_Store

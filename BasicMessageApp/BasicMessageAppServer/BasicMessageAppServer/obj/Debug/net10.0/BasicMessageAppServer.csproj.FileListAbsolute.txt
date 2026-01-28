@@ -27,3 +27,4 @@ D:\Github\SignalR\BasicMessageApp\BasicMessageAppServer\BasicMessageAppServer\ob
 D:\Github\SignalR\BasicMessageApp\BasicMessageAppServer\BasicMessageAppServer\obj\Debug\net10.0\BasicMessageAppServer.pdb
 D:\Github\SignalR\BasicMessageApp\BasicMessageAppServer\BasicMessageAppServer\obj\Debug\net10.0\BasicMessageAppServer.genruntimeconfig.cache
 D:\Github\SignalR\BasicMessageApp\BasicMessageAppServer\BasicMessageAppServer\obj\Debug\net10.0\ref\BasicMessageAppServer.dll
+D:\Github\SignalR\BasicMessageApp\BasicMessageAppServer\BasicMessageAppServer\obj\Debug\net10.0\BasicMessageAppServer.sourcelink.json

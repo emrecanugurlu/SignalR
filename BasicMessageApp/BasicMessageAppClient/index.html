@@ -10,9 +10,38 @@
         $(document).ready(function() {
             const connection = new signalR.HubConnectionBuilder()
                 .withUrl("https://localhost:7155/messageHub")
+                .withAutomaticReconnect([0, 2000, 10000, 30000])
                 .build();
 
-            connection.start().catch(err => console.error(err.toString()));
+            async function start() {
+                try {
+                    await connection.start().catch(err => console.error(err.toString()));
+                    console.log("connected");
+                } catch (err) {
+                    console.log(err);
+                    setTimeout(start, 5000);
+                }
+            }
+
+            start();
+
+            connection.onreconnecting(error => {
+                console.assert(connection.state === signalR.HubConnectionState.Reconnecting);
+                console.log("Reconnecting...");
+            });
+
+            connection.onreconnected(connectionId => {
+                console.assert(connection.state === signalR.HubConnectionState.Connected);
+                console.log("Reconnected.");
+            });
+
+            connection.onclose(error => {
+                console.assert(connection.state === signalR.HubConnectionState.Disconnected);
+                console.log("Connection closed. Attempting to restart...");
+                start();
+            });
+
+
 
             $('#sendMessage').click(()=>{
                 const message = $('#inputMessage').val();
@@ -21,6 +50,8 @@
             connection.on("ReceiveMessage", message => {
                 $('div').append('<p>' + message + '</p>');
             });
+
+            
         });
     </script>
 </head>

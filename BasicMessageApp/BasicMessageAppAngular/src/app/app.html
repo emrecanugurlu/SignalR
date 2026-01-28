@@ -1,0 +1,26 @@
+<div style="width:400px; margin:50px auto;">
+
+  <h2>SignalR Canlı Chat</h2>
+
+  <div style="border:1px solid #ccc; 
+           height:200px; 
+           padding:10px;
+           overflow:auto;
+           margin-bottom:10px;">
+
+    @for (msg of messages; track $index) {
+    <div>
+      👉 {{ msg }}
+    </div>
+    }
+
+
+  </div>
+
+  <input type="text" [(ngModel)]="newMessage" placeholder="Mesaj yaz..." style="width:100%; margin-bottom:10px;" />
+
+  <button (click)="send('Emre', newMessage)">
+    Gönder
+  </button>
+
+</div>

@@ -4,9 +4,9 @@ namespace BasicMessageAppServer.Hubs
 {
     public class MessageHub: Hub
     {
-        public async Task SendMessageAsync(string message)
+        public async Task SendMessageAsync(string username, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage",message);
+            await Clients.All.SendAsync("ReceiveMessage",message, username);
         }
     }
 }

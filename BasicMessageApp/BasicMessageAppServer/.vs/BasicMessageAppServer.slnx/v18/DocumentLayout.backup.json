@@ -46,8 +46,7 @@
               "RelativeToolTip": "BasicMessageAppServer\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-27T21:51:50.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T21:51:50.292Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "BasicMessageAppServer\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-27T21:29:53.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T21:29:53.724Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "BasicMessageAppServer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T21:29:59.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T21:29:59.882Z"
             },
             {
               "$type": "Document",
@@ -84,21 +81,19 @@
               "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "RelativeToolTip": "BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-27T21:51:47.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T21:51:47.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BasicMessageAppServer",
+              "Title": "BasicMessageAppServer.csproj",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "RelativeToolTip": "BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-27T21:51:42.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-27T21:51:42.466Z"
             },
             {
               "$type": "Document",
@@ -106,9 +101,9 @@
               "Title": "MessageHub.cs",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\MessageHub.cs",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\Hubs\\MessageHub.cs",
-              "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\MessageHub.cs",
-              "RelativeToolTip": "BasicMessageAppServer\\Hubs\\MessageHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\MessageHub.cs*",
+              "RelativeToolTip": "BasicMessageAppServer\\Hubs\\MessageHub.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T21:31:00.94Z",
               "EditorCaption": ""

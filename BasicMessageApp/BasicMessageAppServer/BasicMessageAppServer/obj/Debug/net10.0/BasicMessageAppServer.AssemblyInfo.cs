@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicMessageAppServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+004970eeafd191b8ce7989ce69ad6de793ea07aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicMessageAppServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicMessageAppServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
