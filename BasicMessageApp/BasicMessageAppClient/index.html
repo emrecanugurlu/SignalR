@@ -41,6 +41,18 @@
                 start();
             });
 
+            connection.on("userJoined", connectionId => {
+                console.log("User joined: " + connectionId);
+            });
+
+            connection.on("userLeaved", connectionId => {
+                console.log("User leaved: " + connectionId);
+            });
+
+            connection.on("clients", clients => {
+                console.log("Connected clients: " + clients);
+            });
+
 
 
             $('#sendMessage').click(()=>{

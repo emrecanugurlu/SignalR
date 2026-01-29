@@ -34,20 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "BasicMessageAppServer\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Properties\\launchSettings.json",
-              "RelativeToolTip": "BasicMessageAppServer\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-27T21:51:50.292Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -70,7 +58,8 @@
               "RelativeToolTip": "BasicMessageAppServer\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T21:29:59.882Z"
+              "WhenOpened": "2026-01-27T21:29:59.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,10 +92,22 @@
               "RelativeDocumentMoniker": "BasicMessageAppServer\\Hubs\\MessageHub.cs",
               "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\MessageHub.cs*",
               "RelativeToolTip": "BasicMessageAppServer\\Hubs\\MessageHub.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T21:31:00.94Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BasicMessageAppServer\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BasicMessageAppServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-27T21:51:50.292Z"
             }
           ]
         }
