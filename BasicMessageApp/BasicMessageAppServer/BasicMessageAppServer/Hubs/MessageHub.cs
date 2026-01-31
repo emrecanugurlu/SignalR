@@ -6,10 +6,7 @@ namespace BasicMessageAppServer.Hubs
     {
         static List<string> clients = new List<string>();
 
-        public async Task SendMessageAsync(string username, string message)
-        {
-            await Clients.All.SendAsync("ReceiveMessage",message, username);
-        }
+        
 
         public override async Task OnConnectedAsync()
         {

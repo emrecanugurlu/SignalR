@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "BasicMessageAppServer.Controller.HomesController",
+    "Method": "SendMessage",
+    "RelativePath": "api/Homes/{message}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
