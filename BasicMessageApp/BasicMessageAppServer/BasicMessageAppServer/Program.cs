@@ -23,5 +23,6 @@ var app = builder.Build();
 
 app.UseCors();
 app.MapHub<MessageHub>("/messagehub");
+app.MapHub<ChatHub>("/chathub");
 app.MapControllers();
 app.Run();
