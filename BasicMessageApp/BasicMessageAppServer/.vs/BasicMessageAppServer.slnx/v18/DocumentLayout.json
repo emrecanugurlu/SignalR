@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\business\\mybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\business\\mybusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\controller\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\controller\\homescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\hubs\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\basicmessageappserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\basicmessageappserver.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|d:\\github\\signalr\\basicmessageapp\\basicmessageappserver\\basicmessageappserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0FD842AF-4A75-C927-A7BA-A981226F3413}|BasicMessageAppServer\\BasicMessageAppServer.csproj|solutionrelative:basicmessageappserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,31 +59,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MyBusiness.cs",
+              "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Business\\MyBusiness.cs",
+              "RelativeDocumentMoniker": "BasicMessageAppServer\\Business\\MyBusiness.cs",
+              "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Business\\MyBusiness.cs",
+              "RelativeToolTip": "BasicMessageAppServer\\Business\\MyBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T19:17:31.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomesController.cs",
+              "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Controller\\HomesController.cs",
+              "RelativeDocumentMoniker": "BasicMessageAppServer\\Controller\\HomesController.cs",
+              "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Controller\\HomesController.cs",
+              "RelativeToolTip": "BasicMessageAppServer\\Controller\\HomesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T19:17:06.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\Hubs\\ChatHub.cs",
               "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "BasicMessageAppServer\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T12:37:30.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Program.cs",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\Program.cs",
               "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Program.cs",
               "RelativeToolTip": "BasicMessageAppServer\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-27T21:29:59.882Z"
+              "WhenOpened": "2026-01-27T21:29:59.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "BasicMessageAppServer",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\BasicMessageAppServer.csproj",
@@ -86,20 +121,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MessageHub.cs",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\MessageHub.cs",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\Hubs\\MessageHub.cs",
               "ToolTip": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Hubs\\MessageHub.cs",
               "RelativeToolTip": "BasicMessageAppServer\\Hubs\\MessageHub.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T21:31:00.94Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\appsettings.json",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\appsettings.json",
@@ -107,11 +142,12 @@
               "RelativeToolTip": "BasicMessageAppServer\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-27T21:29:53.724Z"
+              "WhenOpened": "2026-01-27T21:29:53.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BasicMessageAppServer.csproj",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\BasicMessageAppServer.csproj",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\BasicMessageAppServer.csproj",
@@ -123,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Github\\SignalR\\BasicMessageApp\\BasicMessageAppServer\\BasicMessageAppServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "BasicMessageAppServer\\Properties\\launchSettings.json",

@@ -9,7 +9,7 @@
     <script>
         $(document).ready(function() {
             const connection = new signalR.HubConnectionBuilder()
-                .withUrl("https://localhost:7155/messageHub")
+                .withUrl("https://localhost:7155/chatHub")
                 .withAutomaticReconnect([0, 2000, 10000, 30000])
                 .build();
 
@@ -56,11 +56,17 @@
 
 
             $('#sendMessage').click(()=>{
+
+                let connectionIds = $('#connectionIds').val().split(",");
                 const message = $('#inputMessage').val();
-                connection.invoke("SendMessageAsync", message).catch(err => console.error(err.toString()));
+                connection.invoke("SendMessageAsync", message, connectionIds).catch(err => console.error(err.toString()));
             });
             connection.on("ReceiveMessage", message => {
-                $('div').append('<p>' + message + '</p>');
+                $('#message').append('<p>' + message + '</p>');
+            });
+
+            connection.on("getConnectionId", connectionId => {
+                $('#connectionId').text("Connection ID: " + connectionId);
             });
 
             
@@ -68,8 +74,11 @@
     </script>
 </head>
 <body>
+    <div id="connectionId" style="background-color: lemonchiffon;"></div>
     <input id="inputMessage" type="text">
     <button id="sendMessage">SendMessage</button>
-    <div></div>
+    <div id="message"></div>
+    <textarea id="connectionIds" cols="30" rows="10"></textarea>
+    
 </body>
 </html>
